@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const api = axios.create({ baseURL: '/api', timeout: 8000 })
+export const api = axios.create({ baseURL: import.meta.env.VITE_API_URL || '/api', timeout: 8000 })
 
 // (c) ovvoru request-layum token attach pannum
 api.interceptors.request.use((config) => {
