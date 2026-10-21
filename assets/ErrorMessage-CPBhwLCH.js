@@ -1,0 +1,1 @@
+import{j as e}from"./index-C8c4giLf.js";import{B as t}from"./Button-CPLttPA3.js";function n({message:s,onRetry:r}){return e.jsxs("div",{className:"text-center py-16",children:[e.jsx("p",{className:"text-red-700 text-sm mb-3",children:s}),r&&e.jsx(t,{onClick:r,children:"Retry"})]})}export{n as E};
